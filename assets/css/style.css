@@ -1,0 +1,745 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+.link-class{
+    cursor: pointer !important;
+}
+.color-class{
+    background-color: #1B2026;
+}
+.bg-img-class{
+    height: 560px;
+    /* width: 300px;   */
+    background-image:url(../images/background1.jpg);
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.563);
+    background-size:   cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.hover1-class a button{
+    color: #fff !important;
+}
+.hover5-class>a>button:hover{
+    background-color:black !important;
+color: white !important;
+transition-duration: 1s !important;
+}
+.hover6-class>a>button:hover{
+    background-color:#F7D9C4 !important;
+color: black !important;
+transition-duration: 1s !important;
+}
+.hover6-class>a>button>span{
+    color: white !important;
+}
+.hover1-class>a>button:hover{
+    background-color:#F7D9C4 !important;
+color: black !important;
+transition-duration: 1s !important;
+}
+.hover7-class>a>button:hover{
+    background-color:#F7D9C4 !important;
+color: black !important;
+transition-duration: 1s !important;
+}
+.hover2-class>a>button:hover{
+    background-color:rgba(128, 128, 128, 0.093) !important;
+color: white !important;
+border: 1px solid gray !important;
+transition-duration: 1s !important;
+}
+.bn-class{
+    margin-top: 60px;
+    border-radius: 20px;
+    height: 500px;
+    background-image: url(../images/background3.jpg);
+       background-size:   cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.pos-class{
+    border-radius: 10px;
+    position:relative;
+    top: 450px;
+}
+.stick-class{
+    position: sticky !important;
+    top: 0px;
+    right: 0px;
+    z-index: 10000!important;
+}
+.hk-class{
+    margin-top: 40px;
+    border-radius: 20px;
+    height: 500px;
+       background-size:   cover;
+    background-repeat: no-repeat;
+    background-position: center;
+background-image: url(../images/background4.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:320px) and (max-width:480px){
+    .center-class>h6{
+        display: flex !important;
+    justify-content: center !important;
+    font-size: 22px !important;
+    }    
+    .center-class>h1{
+        display: flex !important;
+    justify-content: center !important;
+    font-size: 40px !important;
+    }
+    .center-class>p{
+        display: flex !important;
+    justify-content: center !important;
+    margin-left: 40px !important;
+    }
+    .font1-class{
+        font-size: 20px !important;
+    }
+    .hover1-class{
+        margin-top: 20px;
+        display: flex !important;
+        justify-content: center !important;
+        }
+        .hover2-class{
+            
+            display: flex !important;
+            justify-content: center !important;
+        }
+}
+
+
+
+
+
+
+
+@media only screen and (min-width:481px) and (max-width:768px){
+.center-class>h6{
+    display: flex !important;
+justify-content: center !important;
+font-size: 30px !important;
+}
+.center-class>h1{
+    display: flex !important;
+justify-content: center !important;
+}
+.center-class>p{
+    display: flex !important;
+justify-content: center !important;
+margin-left: 30px !important;
+}
+.hover1-class{
+    margin-top: 20px;
+display: flex !important;
+justify-content: center !important;
+}
+.hover2-class{
+    display: flex !important;
+    justify-content: center !important;
+}
+
+
+
+
+
+
+@media only screen and (min-width:769px) and (max-width:991px){
+.image-class>img{
+    height: 530px !important;
+    width: 500px !important;
+}
+
+}
+
+
+.hover1-class{
+    margin-right:  20px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:500px) and (max-width:579px){
+    .fo-class>h1{
+        font-size:  17px !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
+    .fo-class>p{
+        
+        display: flex !important;
+        justify-content: center !important;
+    }
+    .img-class>img{
+        margin-top: 40px !important;
+        width: 200px;
+        height: 250px;
+    }
+    .wi-class{
+        width: 450px !important;
+    
+        }
+}
+
+
+
+@media only screen and (min-width:580px) and (max-width:600px){
+    .fo-class>h1{
+        font-size:  20px !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
+    .fo-class>p{
+        
+        display: flex !important;
+        justify-content: center !important;
+    }
+    .img-class>img{
+        margin-top: 30px !important;
+        width: 250px;
+        height: 300px;
+    }
+}
+
+
+@media only screen and (min-width:601px) and (max-width:767px){
+    .fo-class>h1{
+        font-size:  23px !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
+    .fo-class>p{
+        
+        display: flex !important;
+        justify-content: center !important;
+    }
+    .img-class>img{
+        margin-top: 20px !important;
+        width: 300px;
+        height: 350px;
+    }
+}
+
+
+
+
+
+@media only screen and (min-width:500px) and (max-width:600px){
+.image-class>img{
+    height: 410px !important;
+        width: 370px !important;
+}
+/* .fo-class>h1{
+    font-size:  20px !important;
+    display: flex !important;
+    justify-content: center !important;
+}
+.fo-class>p{
+    
+    display: flex !important;
+    justify-content: center !important;
+}
+.img-class>img{
+    margin-top: 40px !important;
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+} */
+}
+}
+@media only screen and (min-width:400px) and (max-width:500px){
+.image-class>img{
+    height: 350px !important;
+        width: 300px !important;
+}
+.fo-class>h1{
+    font-size:  15px !important;
+    display: flex !important;
+    justify-content: center !important;
+}
+.fo-class>p{
+    
+    display: flex !important;
+    justify-content: center !important;
+}
+.img-class>img{
+    margin-top: 20px !important;
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+}
+.wi-class{
+    width: 350px !important;
+
+    }
+}
+@media only screen and (min-width:300px) and (max-width:400px){
+.image-class>img{
+    height: 330px !important;
+        width: 300px !important;
+}
+.fo-class>h1{
+    font-size:  10px !important;
+    display: flex !important;
+    justify-content: center !important;
+}
+.fo-class>p{
+    
+    display: flex !important;
+    justify-content: center !important;
+}
+.img-class>img{
+    margin-top: 20px !important;
+    width: 120px;
+    height: 170px;
+    border-radius: 10px;
+}
+.wi-class{
+    width: 250px !important;
+
+    }
+}
+@media only screen and (min-width:300px) and (max-width:991px){
+.margin-class{
+    display: flex !important;
+    justify-content: center !important;
+}
+}
+  
+
+@media only screen and (min-width:992px) and (max-width:1400px) {
+    .co-class{
+    height: 100px !important;
+}
+    .sol-class>h1{
+        font-size: 45px !important;
+    }
+    .img-class>img{
+        width: 300px;
+    }
+    .wi-class{
+    width: 1050px !important;   }
+    .colo-class{
+        height: 100px !important;
+    }
+    .card1-class{
+        width: 270px !important;
+        height: 350px;
+    
+    }
+    /* .card1-class>img{
+        height: 220px !important;
+        width: 355px !important;
+    } */
+.ly-class{
+    height: 220px !important;
+        width: 270px !important;
+
+}
+}
+@media only screen and (min-width:993px) and (max-width:1200px){
+    .hover5-class{
+        margin-left: 170px !important;
+    }
+   
+
+
+ 
+    .bf-class{
+    height: 570px !important;
+  }
+    .ok-class>h1{
+        /* margin-left: 70px; */
+        font-size: 50px !important;
+       } 
+       .bor-class{
+        width: 350px !important;
+         height: 55px !important;
+
+       }
+}
+@media only screen and (min-width:1201px) and (max-width:1400px){
+    .hover5-class{
+        margin-left: 180px !important;
+    }
+ 
+
+  
+    .bf-class{
+        height: 570px !important;
+      }
+    .bor-class{
+        width: 350px !important;
+         height: 55px !important;
+
+       }
+  
+    /* .ok-class>h1{
+        margin-left: 70px;
+       }  */
+    .ly-class{
+        height: 220px !important;
+            width: 330px !important;
+    }
+    .card1-class{
+        width: 330px !important;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:992px) {
+    .hover5-class{
+        margin-left: 180px !important;
+    }
+    
+    .kn-class>h6{
+    display: flex !important;
+    justify-content:  center !important;
+   }
+   .kn-class>h1{
+    display: flex !important;
+    justify-content:  center !important;
+   }
+    .co-class{
+        height: 300px !important;
+    }
+
+    .ab-classs>h1{
+    font-size: 50px !important;
+  }
+    .bf-class{
+        height:800px !important;
+      }
+    .bor-class{
+        margin-top: 30px;
+        width: 390px !important;
+         height: 60px !important;
+         margin-left: 160px;
+       }
+    .ok-class>h1{
+    /* margin-left: 60px; */
+    font-size: 50px !important;
+   }
+   
+    .ly-class{
+        height: 220px !important;
+            width: 300px !important;
+            
+    }
+    .ki-class{
+        margin-top: 30px;
+    }
+    .card1-class{
+    /* display: flex !important;
+    justify-content: space-between !important; */
+     width: 300px !important;
+     height: 350px !important;
+    }
+    .sol-class>h6{
+        display: flex !important;
+        justify-content: center !important;
+    }
+    
+    .sol-class>h1{
+        font-size: 45px !important;
+    }
+    .d-class{
+        display: flex !important;
+        justify-content:  center !important;
+    }
+    .but-class{
+        display: flex !important;
+        justify-content: center !important;
+    }
+    .fo-class>h1{
+        font-size:  33px !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
+    .fo-class>p{
+        
+        display: flex !important;
+        justify-content: center !important;
+    }
+    .img-class>img{
+        margin-top: 20px;
+        width: 300px;
+        height: 400px;
+    }
+    .colo-class{
+        height: 70px !important;
+    }
+ 
+}
+@media only screen and (min-width:481px) and (max-width:551px){
+    
+    .bor-class{
+        margin-top: 30px;
+        width: 390px !important;
+         height: 60px !important;
+         margin-left: 35px;
+       }
+    .ok-class>h1{
+        /* margin-left: 15px; */
+        font-size: 30px !important;
+       }
+       
+}
+@media only screen and (min-width:481px) and (max-width:551px){
+        .kn-class>h1{
+            font-size: 40px !important;
+               }
+     }
+
+
+@media only screen and (min-width:575px) and (max-width:767px){
+    .co-class{
+        height: 300px !important;
+    }
+}
+@media only screen and (min-width:400px) and (max-width:574px){
+    .co-class{
+        height: 500px !important;
+    }
+}
+@media only screen and (min-width:300px) and (max-width:399px){
+    .co-class{
+        height: 480px !important;
+    }
+}
+   @media only screen and (min-width:552px) and (max-width:767px){
+    .kn-class>h1{
+        font-size: 47px !important;
+           }
+    .bor-class{
+        margin-top: 30px;
+        width: 390px !important;
+         height: 60px !important;
+         margin-left: 65px;
+       }
+    .ok-class>h1{
+        /* margin-left: 40px; */
+        font-size: 40px !important;
+       }
+   }
+   
+   @media only screen and (min-width:300px) and (max-width:992px){
+    .nm-class{
+
+        margin-top: 20px !important;
+    }
+   }
+   @media only screen and (min-width:481px) and (max-width:767px) {
+   .nj-class>h1{
+    font-size: 35px !important;
+   }
+    .bs-class>h1{
+        font-size: 40px !important;
+    }
+ 
+    .kn-class>h6{
+        display: flex !important;
+        justify-content:  center !important;
+       }
+       .kn-class>h1{
+        display: flex !important;
+        justify-content:  center !important;
+       }
+    .ab-classs>h1{
+        font-size: 40px !important;
+      }
+    .bf-class{
+        height:700px !important;
+      } 
+    .core-class{
+        font-size: 40px !important;
+    }
+    
+    .sol-class>h6{
+        display: flex !important;
+        justify-content: center !important;
+    }
+    
+    .sol-class>h1{
+        font-size: 40px !important;
+    }
+    .d-class{
+        display: flex !important;
+        justify-content: space-between  !important;
+    }
+    .but-class{
+        display: flex !important;
+        justify-content: center !important;
+    }
+    .colo-class{
+        height: 50px !important;
+    }
+    .ly-class{
+        height: 220px !important;
+            width: 330px !important;
+    }
+    .ki-class{
+        margin-top: 30px;
+    }
+    .hn-class{
+        margin-top: 30px;
+    }
+    .card1-class{
+        height: 340px;
+        width: 330px !important;
+    }
+ 
+}
+
+@media only screen and (min-width:400px) and (max-width:480px){
+    .kn-class>h6{
+        display: flex !important;
+        justify-content:  center !important;
+       }
+       .kn-class>h1{
+        font-size: 32px !important;
+        display: flex !important;
+        justify-content:  center !important;
+       }
+    .bor-class{
+        margin-top: 30px;
+        width: 330px !important;
+         height: 60px !important;
+         margin-left: 20px;
+       }
+    .ok-class>h1{
+        /* margin-left: 10px; */
+        font-size: 20px !important;
+       }
+
+    }
+
+@media only screen and (min-width:300px) and (max-width:399px){
+   
+    .kn-class>h6{
+        display: flex !important;
+        justify-content:  center !important;
+       }
+       .kn-class>h1{
+        font-size: 27px !important;
+        display: flex !important;
+        justify-content:  center !important;
+       }
+    .bor-class{
+        margin-top: 30px;
+        width: 330px !important;
+         height: 60px !important;
+         /* margin-left: 10px; */
+       }
+    .ok-class>h1{
+        /* margin-left: 10px; */
+        font-size: 20px !important;
+       }
+       
+}
+@media only screen and (min-width:300px) and (max-width:480px) {
+    .nj-class>h1{
+        font-size: 30px !important;
+       } 
+    .bs-class>h1{
+        font-size: 30px !important;
+    }
+    .ab-classs>h1{
+        font-size: 30px !important;
+      }
+    .bf-class{
+        height:700px !important;
+      } 
+   
+    .ok-class>h1{
+        /* margin-left: 20px; */
+        font-size: 25px !important;
+    } 
+    .colo-class{
+        height: 20px !important;
+    }
+    .but-class{
+        display: flex !important;
+        justify-content: center !important;
+    }
+    .sol-class>h6{
+        display: flex !important;
+        justify-content: center !important;
+    }
+    
+    .sol-class>h1{
+        font-size: 25px !important;
+    }  
+    .ly-class{
+        height: 220px !important;
+            width: 250px !important;
+    }
+    .ki-class{
+        margin-top: 30px;
+    }
+    .hn-class{
+        margin-top: 30px;
+    }
+    .card1-class{
+        height: 330px;
+        width: 250px !important;
+    } 
+    .core-class{
+        font-size: 30px !important;
+    }
+}
+.img-class>img{
+    width: 300px;
+    object-fit:cover;
+}
+.ly-class{
+    /* height: 220px !important;
+        width: 270px !important; */
+        object-fit: cover;
+
+}
+
+@media only screen and (min-width:1401px) and (max-width:1800px) {
+        .ly-class{
+            height: 220px !important;
+                width: 370px !important;
+        display: flex !important;
+        justify-content: center !important;
+        }
+          
+    }
+@media only screen and (min-width:1801px) and (max-width:2100px) {
+        .ly-class{
+            height: 220px !important;
+                width: 370px !important;
+        display: flex !important;
+        justify-content: center !important;
+        }
+          
+    }
